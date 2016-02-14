@@ -9,7 +9,7 @@ module.exports = {
       email: "<%= pkg.config.github.email %>"
     },
     repo: 'https://<%= env.GH_TOKEN %>@github.com/<%= env.TRAVIS_REPO_SLUG %>.git',
-    silent: true,
+    silent: false,
     base: 'output'
   },
   src: ['**/*']
