@@ -1,6 +1,7 @@
 # Commercetools Sunrise Theme
 
-[![Build Status](https://travis-ci.org/sphereio/commercetools-sunrise-theme.png?branch=master)](https://travis-ci.org/sphereio/commercetools-sunrise-theme) [![Stories in Ready](https://badge.waffle.io/sphereio/commercetools-sunrise-theme.png?label=ready&title=Ready)](https://waffle.io/sphereio/commercetools-sunrise-theme) [ ![Download](https://api.bintray.com/packages/commercetools/maven/commercetools-sunrise-theme/images/download.svg) ](https://bintray.com/commercetools/maven/commercetools-sunrise-theme/_latestVersion)
+[![Build Status](https://travis-ci.org/stmeissner/commercetools-sunrise-design.svg?branch=master)](https://travis-ci.org/stmeissner/commercetools-sunrise-design)
+[![Stories in Ready](https://badge.waffle.io/sphereio/commercetools-sunrise-theme.png?label=ready&title=Ready)](https://waffle.io/sphereio/commercetools-sunrise-theme) [ ![Download](https://api.bintray.com/packages/commercetools/maven/commercetools-sunrise-theme/images/download.svg) ](https://bintray.com/commercetools/maven/commercetools-sunrise-theme/_latestVersion)
 
 ##Demo
 - [Home](http://sphereio.github.io/commercetools-sunrise-theme/site/en/home.html) ( [DE](http://sphereio.github.io/commercetools-sunrise-theme/site/de/home.html) )
