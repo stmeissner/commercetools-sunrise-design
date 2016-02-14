@@ -1,20 +1,16 @@
 language: node_js
-node_js: "0.12.2"
-
+node_js: 0.12.2
 before_install:
-  - npm install -g grunt-cli
-  - gem install sass
-
+- npm install -g grunt-cli
+- gem install sass
 install:
-  - npm install
-
+- npm install
 script:
-  - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then grunt publish; else grunt build; fi
-
+- if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then grunt
+  publish; else grunt build; fi
 branches:
   only:
-    - master
-
+  - master
 env:
   global:
-  - secure: WKGlYM5brTh7EdrWryBYVjm4MjN16QjN4le2j+mUIoDO5sOGmDwTuUIYexdrT9zwhuxH2x9QqA1j+2cF9eRShMT7Bl/StsEzEI3Kidd1FZUZ4ufjhq73ASjYkCc4owUKobp+eLNMh4Y5KYjRJVTgK6sEPM2DJnNHG8N1nEI4ESg=
+    TRAVIS_REPO_SLUG=stmeissner/commercetools-sunrise-design
