@@ -23,8 +23,8 @@
           "value": "DE"
         },
         {
-          "label": "UK",
-          "value": "UK",
+          "label": "United Kingdom (UK)",
+          "value": "United Kingdom (UK)",
           "selected": true
         },
         {
@@ -44,7 +44,7 @@
             "totalPrice": "49,00 €",
             "variant": {
               "name": "Enditatem Product Name Optional very long line two",
-              "image": "../assets/img/blue-jacket.jpg",
+              "image": "../../assets/img/blue-jacket.jpg",
               "url": "pdp.html",
               "sku": "Sunrise #SUN123456",
               "priceOld": "100,00 €",
@@ -69,7 +69,7 @@
             "totalPrice": "49,00 €",
             "variant": {
               "name": "Enditatem Product Name Optional very long line two",
-              "image": "../assets/img/blue-jacket.jpg",
+              "image": "../../assets/img/blue-jacket.jpg",
               "url": "pdp.html",
               "sku": "Sunrise #SUN123456",
               "priceOld": "100,00 €",
@@ -94,7 +94,7 @@
             "totalPrice": "49,00 €",
             "variant": {
               "name": "Enditatem Product Name Optional very long line two",
-              "image": "../assets/img/blue-jacket.jpg",
+              "image": "../../assets/img/blue-jacket.jpg",
               "url": "pdp.html",
               "sku": "Sunrise #SUN123456",
               "priceOld": "100,00 €",
@@ -1627,7 +1627,7 @@
     "newsletter": "SUNRISE Newsletter"
   },
   "meta": {
-    "assetsPath": "../assets/",
+    "assetsPath": "../../assets/",
     "csrfToken": "Test123",
     "bagQuantityOptions": [
       1,
