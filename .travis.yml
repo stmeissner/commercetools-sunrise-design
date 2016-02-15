@@ -11,6 +11,3 @@ script:
 branches:
   only:
   - master
-env:
-  global:
-    TRAVIS_REPO_SLUG=stmeissner/commercetools-sunrise-design
