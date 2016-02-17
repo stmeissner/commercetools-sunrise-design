@@ -100,4 +100,5 @@ Publish the generated `output/` folder to [GitHub Pages](https://pages.github.co
 
 - `grunt publish` to publish the generated site to GitHub Pages (requires that you set up `config.github` in `package.json` accordingly to your GitHub repository)
 
-Notice that this Grunt task is designed to be running on [Travis CI](https://travis-ci.org/) by default, so you need to enable it for your project. In order to grant it access to your GitHub repository, [define an environment variable](https://docs.travis-ci.com/user/environment-variables) named `$GH_TOKEN` in `.travis.yml` containing a [GitHub Access Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).
+Note that this Grunt task needs access to your GitHub repository. In order to grant it access to your GitHub repository, define an environment variable named `$GH_TOKEN` containing a [GitHub Access Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/).  
+You also need to amend the github `name`, `email` and `repoSlug` in the respective config section in the package.json file to make the task work for your GitHub repository.
