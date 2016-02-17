@@ -10,7 +10,7 @@
     "github": {
       "username": "stmeissner",
       "email": "stefan.meissner@commercetools.de",
-      "reposlug": "stmeissner/commercetools-sunrise-design"
+      "repoSlug": "stmeissner/commercetools-sunrise-design"
     },
     "maven": {
       "groupId": "io.commercetools.sunrise",
