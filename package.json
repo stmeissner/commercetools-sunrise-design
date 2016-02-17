@@ -9,7 +9,8 @@
   "config": {
     "github": {
       "username": "stmeissner",
-      "email": "stefan.meissner@commercetools.de"
+      "email": "stefan.meissner@commercetools.de",
+      "reposlug": "stmeissner/commercetools-sunrise-design"
     },
     "maven": {
       "groupId": "io.commercetools.sunrise",
